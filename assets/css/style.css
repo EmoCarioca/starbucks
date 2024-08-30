@@ -16,6 +16,7 @@ body{
 
 .headup {
     padding: 15px 0px;
+    width: 1600px;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -31,6 +32,7 @@ body{
 }
 
 .containerarea {
+    width: 1600px;
     height: 100px;
     background-color: #1E3932;
     display: flex;
@@ -141,12 +143,6 @@ body{
     transition: 0.60s;
 }
 
-.navauto div{
-    border: 2px solid #20a6ff;
-    padding: 5px;
-    border-radius: 10px;
-
-}
 
 .manuelbtn:not(:last-child){
     margin-right: 30px;
@@ -181,3 +177,57 @@ body{
     margin-left: -120%;
 }
 
+.navauto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: -40px;
+    height: 700px;
+    align-items: end;
+    justify-content: center;
+}
+
+.navauto div{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navauto div:not(:last-child){
+    margin-right: 30px;
+}
+
+#radio1:checked ~ .navauto .autobt1{
+    background: white;
+}
+
+
+#radio1:checked ~ .navauto .autobt2{
+    background: white;
+}
+
+
+#radio1:checked ~ .navauto .autobt3{
+    background: white;
+}
+
+
+#radio1:checked ~ .navauto .autobt4{
+    background: white;
+}
+
+
+#radio1:checked ~ .navauto .autobt5{
+    background: white;
+}
+
+
+#radio1:checked ~ .navauto .autobt6{
+    background: white;
+}
+
+
+#radio1:checked ~ .navauto .autobt7{
+    background: white;
+}
