@@ -231,3 +231,155 @@ body{
 #radio1:checked ~ .navauto .autobt7{
     background: white;
 }
+
+.default.vrd{
+    background-color:#1E3932;
+}
+
+.areaz{
+    text-align: center;
+    font-size: 22px;
+    width: 100%;
+    color: white;
+    margin: 0px auto;
+    padding: 76 120;
+    font-weight: 600;
+}
+
+.areaz p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.default.white{
+    background-color: white;
+
+}
+
+.whiteh1, .whiteh2{
+    text-align: center;
+    font-weight: 600;
+    
+
+}
+
+
+.whiteh2{
+    margin-top: 25px;
+    color: #006241;
+    font-size: 20px;
+}
+
+.whiteh1{
+    color: #1E3932;
+    font-size: 30px;
+}
+
+
+.areaw{
+    display: flex;
+    justify-content: center;
+}
+
+.imgsa img{
+    width: 240px;
+    height: 300px;
+    margin:0px 125px;
+}
+
+.imgsa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgsa p, .imgsa span{
+    color: #5a5959;
+    margin-top: 5px;
+}
+
+
+.imgsa a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+}
+
+#value{
+    font-size: 20px;
+}
+
+.counter div{
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter button{
+    color: #006241;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.counter button:hover{
+    opacity: .8;
+}
+
+.plus ,.minus, .cb{
+    
+    width: 30px;
+    font-size: 22px;
+    border: 1px solid #1E3932;
+    border-radius:150px;
+}
+
+.counter a{
+    margin: 0px 15px;
+    color: white;
+    background-color: #006241;
+
+}
+
+.pp{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.pp p{
+    margin: 5;
+    color: black;
+}
+
+.default {
+    padding: 50px 0px;
+    width: 100vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
