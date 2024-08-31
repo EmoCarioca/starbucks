@@ -234,6 +234,7 @@ body{
 
 .default.vrd{
     background-color:#1E3932;
+    color: white;
 }
 
 .areaz{
@@ -365,9 +366,60 @@ body{
     width: 100vw;
 }
 
+.rg{
+    text-align: start;
+    align-items: center;
+}
 
+.rg h2{
+    font-weight: 700;
+}
 
+.rg h1{
+    font-size: 60;
+    font-weight: 400;
+}
 
+.rg p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.its{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+.its img{
+    margin-left: 15px;
+}
+
+.its p{
+    margin-left: 10px;
+}
+
+.rg a{
+    background-color: #006241;
+    padding: 14 30px;
+    color: white;
+    border-radius:50px;
+    text-decoration: none;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.lef img{
+    margin-left: 25px;
+}
+
+.aa{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
 
 
