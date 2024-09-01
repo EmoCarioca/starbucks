@@ -421,6 +421,26 @@ body{
     justify-content: center;
 }
 
+.bod{
+    position: absolute;
+}
+
+.bod img{
+    width: 675;
+    height: 550;
+}
+
+.aread{
+    justify-content: center;
+    display: flex;
+}
+
+.slidez img{
+    display: flex;
+    width: 445;
+    height: 372;
+}
+
 
 
 
