@@ -25,7 +25,6 @@ const updateValue = () => {
 };
 
 
-
 let count = 1;
 let intervalId = 0
 
@@ -33,7 +32,6 @@ plusbutton.addEventListener('mousedown', () => {
     value.innerHTML = ++count;
     updateValue()
 });
-
 
 minusbutton.addEventListener('mousedown', () => {
     value.innerHTML = --count;
@@ -43,13 +41,9 @@ minusbutton.addEventListener('mousedown', () => {
         value.innerHTML = ++count;
         updateValue()
     }
-
-
 });
 
 document.addEventListener('mouseup', () => clearInterval(intervalId));
-
-
 
 const value2 = document.getElementById('value2');
 const plusbutton2 = document.getElementById('plus2');
@@ -60,8 +54,6 @@ const updateValue2 = () => {
 
 };
 
-
-
 let count2 = 1;
 let intervalId2 = 0
 
@@ -69,7 +61,6 @@ plusbutton2.addEventListener('mousedown', () => {
     value2.innerHTML = ++count2;
     updateValue2()
 });
-
 
 minusbutton2.addEventListener('mousedown', () => {
     value2.innerHTML = --count2;
@@ -81,12 +72,7 @@ minusbutton2.addEventListener('mousedown', () => {
 
 });
 
-
-
-
-
 document.addEventListener('mouseup', () => clearInterval(intervalId2));
-
 
 const value3 = document.getElementById('value3');
 const plusbutton3 = document.getElementById('plus3');
@@ -96,8 +82,6 @@ const updateValue3 = () => {
     value3.innerHTML = count3;
 
 };
-
-
 
 let count3 = 1;
 let intervalId3 = 0
@@ -117,8 +101,27 @@ minusbutton3.addEventListener('mousedown', () => {
     updateValue()
 });
 
-
-
-
-
 document.addEventListener('mouseup', () => clearInterval(intervalId3));
+
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+});
